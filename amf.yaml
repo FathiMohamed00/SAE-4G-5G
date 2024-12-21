@@ -1,0 +1,25 @@
+amf:
+  sbi:
+    addr: 127.0.0.1  # Adresse REST (SBI interface)
+    port: 7777
+  ngap:
+    addr: 127.0.0.3  # Adresse pour NGAP interface (vers gNB)
+  guami:
+    plmn_id:
+      mcc: 001
+      mnc: 01
+    amf_id:
+      region: 1
+      set: 1
+  plmn_support:
+    - plmn_id:
+        mcc: 001
+        mnc: 01
+      s_nssai:
+        - sst: 1
+          sd: 010203
+  tai:
+    - plmn_id:
+        mcc: 001
+        mnc: 01
+      tac: 1

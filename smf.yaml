@@ -1,0 +1,12 @@
+smf:
+  sbi:
+    addr: 127.0.0.1
+    port: 7778
+  pfcp:
+    addr: 127.0.0.4  # PFCP interface (vers UPF)
+  gtpc:
+    addr: 127.0.0.4  # GTP-C interface (vers UPF)
+  dns:
+    primary: 8.8.8.8
+  subnet:
+    - addr: 127.0.0.1/24  # Adresse des UE

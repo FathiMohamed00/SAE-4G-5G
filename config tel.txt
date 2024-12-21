@@ -1,0 +1,12 @@
+Nom : Mammad
+
+APN : Mammad5G
+
+Type d'APN : Default
+
+Protocole APN : IPv4
+
+MCC : 001 
+
+MNC : 01
+
